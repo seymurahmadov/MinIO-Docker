@@ -5,7 +5,7 @@ import io.minio.MinioClient;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MinioSer {
+public class MinioService {
 
     public void putObject(MinioDto minioDto) {
 
